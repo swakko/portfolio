@@ -1,6 +1,6 @@
 @import 'bootstrap';
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600&subset=latin,latin-ext);
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600&subset=latin,latin-ext");
 
 h1,h2,h3,h4,h5,h6, body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -978,58 +978,58 @@ form p {
 	border-color: #23A657;
 }
 
-/* ------------------------------ Media -------------------------- */
-@media (max-width: 480px) { 
-	.copyright {
-		width: 100%;
-		text-align: center;
-	}
-	h2 {font-size: 26px;}
-}	
-@media (max-width: 768px) { 
-	.text-col,
-	.text-col2,
-	.cta-message {
-		text-align: center;
-	}
-	.hero-slider, .hero-sloder h2 {
-		text-align: center !important;
-	}
-	.modal-header .loader{
-		top:15%;
-	}
-	.modal-header {
-		height: 350px;
-	}
-	.welcome-content {
-		top: 43%;
-	}
-	.welcome-content img {
-		padding: 0 15px; 
-	}
-	.padding-top-bottom {
-		padding: 30px 0;
-	}
-	h1 {font-size: 28px;}
-	h3 {/* font-size: 18px; */}
-	.news {
-		padding-bottom: 40px;
-	}
+// /* ------------------------------ Media -------------------------- */
+// @media (max-width: 480px) { 
+// 	.copyright {
+// 		width: 100%;
+// 		text-align: center;
+// 	}
+// 	h2 {font-size: 26px;}
+// }	
+// @media (max-width: 768px) { 
+// 	.text-col,
+// 	.text-col2,
+// 	.cta-message {
+// 		text-align: center;
+// 	}
+// 	.hero-slider, .hero-sloder h2 {
+// 		text-align: center !important;
+// 	}
+// 	.modal-header .loader{
+// 		top:15%;
+// 	}
+// 	.modal-header {
+// 		height: 350px;
+// 	}
+// 	.welcome-content {
+// 		top: 43%;
+// 	}
+// 	.welcome-content img {
+// 		padding: 0 15px; 
+// 	}
+// 	.padding-top-bottom {
+// 		padding: 30px 0;
+// 	}
+// 	h1 {font-size: 28px;}
+// 	h3 {/* font-size: 18px; */}
+// 	.news {
+// 		padding-bottom: 40px;
+// 	}
 
-}
- @media (max-width: 992px) { 
- 	.cta-message {
-		text-align: center;
-	}
-	.text-col{
-		margin-top: 0;
-	}
- }
- @media (min-width: 1200px) { 
-	.modal-header {
-		height: 650px;
-	}
+// }
+//  @media (max-width: 992px) { 
+//  	.cta-message {
+// 		text-align: center;
+// 	}
+// 	.text-col{
+// 		margin-top: 0;
+// 	}
+//  }
+//  @media (min-width: 1200px) { 
+// 	.modal-header {
+// 		height: 650px;
+// 	}
 	
-}
+// }
 
 
