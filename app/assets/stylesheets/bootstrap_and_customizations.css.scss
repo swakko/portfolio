@@ -92,108 +92,6 @@ h3.center {
 	margin-bottom: 15px;
 }
 
-/* ------------------------ nav bar ------------------------ */
-.navbar{
-	background-color: #FFFFFF;
-	border: 0;
-}
-
-.navbar-header{
-	/*padding-top: 5px;*/
-}
-.navbar-header i {
-	float: left;
-	margin-right: 10px;
-	font-size: 21px;
-	color: #23A657;
-	margin-top: 3px;
-}
-.navbar-brand {
-	/*line-height: 30px;*/
-	padding: 7px 0 0 15px;
-	/*margin-left: 0;*/
-}
-.navbar>.container .navbar-brand,.navbar>.container-fluid .navbar-brand {
-        /*margin-left:0;*/
-  }
-.navbar-collapse{
-	 /*padding: 5px 0; */
-}
-
-.navbar-nav {
-	text-transform: uppercase;
-	font-size: 14px;
-	/*padding: 5px 0;*/
-}
-
-.navbar-inverse .navbar-nav>li>a,
-.navbar-inverse .navbar-brand	{
-	color: #FFF;
-	line-height: 30px;
-}
-.navbar-inverse .navbar-nav>li>a:hover, 
-.navbar-inverse .navbar-nav>li>a:focus,
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
-	color: #23A657;
-	background-color: transparent;
-}
-
-.media>.pull-left {
-	margin-right: 15px;
-}
-
-.navbar-inverse .navbar-nav>li>a.active,
-.navbar-inverse .navbar-nav>.active>a:hover,
-.navbar-inverse .navbar-nav>.active>a:focus {
-	color: #FFFFFF;
-	background-color: transparent;
-}
-
-.navbar-btn {
-	background-color: #23A657;
-	border: 0;
-	color: #FFF;
-	font-weight: 300;
-}
-
-.dropdown{
-	padding-top: 13px;
-}
-.dropdown-toggle{
-	background-color: #23A657;
-	color: #FFF;
-	border: 0;
-	font-weight: 300;
-}
-.dropdown-toggle:hover,.dropdown-toggle:focus,.dropdown-toggle:active, .open .dropdown-toggle.btn-default{
-	background-color: #000;
-	color: #FFF;
-}
-.dropdown-menu {
-	min-width: 120px;
-	background-color: #000;
-	border: 0;
-	color: #FFF;
-}
-.dropdown-menu>li>a {
-	color:#FFF;
-	font-weight: 300;
-}
-.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{
-	background-color: #23A657;
-	color: #FFF;
-}
-.navbar-toggle {
-	margin-top: 14px;
-	margin-bottom: 14px;
-}
-
-.navbar-toggle.second{
-	padding: 6px 10px 6px 10px;
-}
-
-
 /* ------------------------ section ------------------------ */
 
 .section-header h2 {
@@ -241,15 +139,12 @@ footer {
 
 
 /* ------------------------ nav bar ------------------------ */
-.navbar{
-	background-color: #242424;
-	/* background-color: rgba(36,36,36,0.9); */
-	border: 0;
 
+.navbar{
+	background-color: #FFFFFF;
+	border: 0;
 }
-.navbar-header{
-	/*padding-top: 5px;*/
-}
+
 .navbar-header i {
 	float: left;
 	margin-right: 10px;
@@ -258,27 +153,34 @@ footer {
 	margin-top: 3px;
 }
 .navbar-brand {
-	/*line-height: 30px;*/
 	padding: 7px 0 0 15px;
-	/*margin-left: 0;*/
-}
-.navbar>.container .navbar-brand,.navbar>.container-fluid .navbar-brand {
-        /*margin-left:0;*/
-  }
-.navbar-collapse{
-	 /*padding: 5px 0; */
 }
 
 .navbar-nav {
-	text-transform: uppercase;
-	font-size: 14px;
-	/*padding: 5px 0;*/
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+
+.navbar-nav ul > li > a {
+  height: auto;
+  margin: auto;
+  text-align: center;
+  padding: 25px 0 5px;
+  display: inline-block;
+  color: black;
 }
 
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-brand	{
-	color: #FFF;
+	color: #000;
 	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+  text-transform: uppercase;	
 }
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a:focus,
@@ -328,6 +230,8 @@ footer {
 .dropdown-menu>li>a {
 	color:#FFF;
 	font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{
 	background-color: #23A657;
