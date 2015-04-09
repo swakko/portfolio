@@ -1,4 +1,4 @@
-@import 'bootstrap';
+ @import 'bootstrap';
 
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600&subset=latin,latin-ext");
 
@@ -14,7 +14,7 @@ p{
 	margin-bottom: 20px;
 }
 body {
-	padding-top: 0;
+	padding-top: 65px;
 	color:#4c4c4c;
 }
 strong{
@@ -26,6 +26,10 @@ strong{
 
 h3.center {
 	margin: 25px 0 20px 0;
+}
+
+.intro-header {
+	  background-image: url(image_path("bear.jpg"));
 }
 
 .iconBig {
@@ -143,6 +147,7 @@ footer {
 .navbar{
 	background-color: #FFFFFF;
 	border: 0;
+	height: 69px;
 }
 
 .navbar-header i {

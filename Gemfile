@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'arel', '6.0.0.beta2'
 gem 'jquery-turbolinks'
+gem 'bloggy'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 

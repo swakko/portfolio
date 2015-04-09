@@ -42,12 +42,36 @@ GEM
       json
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    blankslate (2.1.2.4)
+    bloggy (0.3)
+      jekyll (~> 1.4.2)
+      rack-contrib
+      rails
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
+      rdiscount
     bootstrap-sass (3.3.4.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
     builder (3.2.2)
     byebug (4.0.5)
       columnize (= 0.9.0)
+    classifier (1.3.4)
+      fast-stemmer (>= 1.0.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -55,17 +79,34 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1)
+    colorator (0.1)
     columnize (0.9.0)
+    commander (4.1.6)
+      highline (~> 1.6.11)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.5.0)
+    fast-stemmer (1.0.2)
+    ffi (1.9.8)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
+    highline (1.6.21)
     hike (1.2.3)
     i18n (0.7.0)
     jbuilder (2.2.12)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
+    jekyll (1.4.3)
+      classifier (~> 1.3)
+      colorator (~> 0.1)
+      commander (~> 4.1.3)
+      liquid (~> 2.5.5)
+      listen (~> 1.3)
+      maruku (~> 0.7.0)
+      pygments.rb (~> 0.5.0)
+      redcarpet (~> 2.3.0)
+      safe_yaml (~> 0.9.7)
+      toml (~> 0.1.0)
     jquery-rails (4.0.1)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0.beta)
@@ -74,17 +115,31 @@ GEM
       railties (>= 3.1.0)
       turbolinks
     json (1.8.2)
+    liquid (2.5.5)
+    listen (1.3.1)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      rb-kqueue (>= 0.2)
     loofah (2.0.1)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    maruku (0.7.2)
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
     multi_json (1.11.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    parslet (1.5.0)
+      blankslate (~> 2.0)
+    posix-spawn (0.3.11)
+    pygments.rb (0.5.4)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
     rack (1.6.0)
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.0.beta4)
@@ -112,8 +167,16 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rb-kqueue (0.2.3)
+      ffi (>= 0.5.0)
+    rdiscount (2.1.8)
     rdoc (4.2.0)
       json (~> 1.4)
+    redcarpet (2.3.0)
+    safe_yaml (0.9.7)
     sass (3.4.13)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -138,6 +201,8 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
+    toml (0.1.2)
+      parslet (~> 1.5.0)
     turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
@@ -150,12 +215,14 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (~> 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   arel (= 6.0.0.beta2)
+  bloggy
   bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
