@@ -155,6 +155,9 @@ footer {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.footer-container {
+	width: 100%;
+}
 .img-center {
 	margin: 0 auto;
 }
@@ -309,11 +312,10 @@ footer {
 	box-shadow: none;
 }
 .btn-store.outline {
-	background: transparent;
-	border:2px solid #23A657;
+	background: #F4F4F4;
+	border:2px solid #92C473;
 	box-shadow: none;
-	
-	color: #23A657;
+	color: #323A42;
 	text-decoration: none;
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
@@ -906,7 +908,7 @@ address {
 }
 #main-footer,
 #social {
-	padding: 40px 0 20px;
+	padding: 23px 46px 71px;
 }
 .checkbox, .radio {
 	margin-bottom: 12px;
