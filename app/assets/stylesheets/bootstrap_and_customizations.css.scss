@@ -32,6 +32,18 @@ h3.center {
 	  background-image: url(image_path("bear.jpg"));
 }
 
+.intro-about {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;	
+  background-image: url(image_path("06.jpg"));
+}
+
 .iconBig {
 	font-size: 50px;
 	display: block;
