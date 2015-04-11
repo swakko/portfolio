@@ -134,14 +134,65 @@ figure, p {
 
 /* ------------------------ about ------------------------ */
 
-.portfolio-container {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+/*=========================================
+	Some fun facts
+==========================================*/
+
+#facts {
+	background-image: url("../img/parallax/city.jpg");
+	background-color: rgba(6,32,51,.8);
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
 }
 
-.project-container {
-  background-image: url(image_path("bear.jpg"));   
+.facts .devider:before,
+.facts .devider:after {
+	color: #737C85;
 }
 
+.facts .devider i {
+	color: #fff;
+}
+
+.parallax-overlay {
+	background-color: rgba(6,32,51,.8);
+	padding: 70px 0;
+}
+
+.counters-item {
+  color: #fff;
+}
+
+.counters-item i {
+  border: 1px solid #737C85;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 120px;
+  margin: 0 0 35px;
+  padding: 40px 0 0;
+  width: 120px;
+}
+
+.counters-item strong {
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.counters-item p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
 
