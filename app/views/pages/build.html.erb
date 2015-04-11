@@ -66,7 +66,7 @@
 <section id="orderform" class="gray-bg padding-top-bottom" ng-controller="orderController">
 	<div class="container">
 		<header class="section-header text-center">
-			<h2>Order Form</h2>
+			<h3>Select Features</h3>
 		</header>
 		<form action="index.html" method="post" novalidate id="order-form">
 			<div class="row">
@@ -90,7 +90,7 @@
 					  <td class="text-center">
 						<select class="form-control form-control-inline" ng-model="myBed" ng-options="opt as opt.label for opt in options"></select>
 					  </td>
-					  <td class="text-right vert-align">{{ myBed.value * 700 | currency:"$":0  }}</td>
+					  <td class="text-right vert-align">$ 0.00</td>
 					</tr>							
 					<tr>
 					  <td class="vert-align">Nightstand</td>
@@ -98,7 +98,7 @@
 					  <td class="text-center">
 						<select class="form-control form-control-inline" ng-model="myNightstand" ng-options="opt as opt.label for opt in options"></select>
 					  </td>
-					  <td class="text-right vert-align">{{ myNightstand.value * 400 | currency:"$":0  }}</td>
+					  <td class="text-right vert-align">$ 0.00</td>
 					</tr>							
 					<tr>
 					  <td class="vert-align">Hammock</td>
@@ -106,7 +106,7 @@
 					  <td class="text-center">
 						<select class="form-control form-control-inline" ng-model="myHammock" ng-options="opt as opt.label for opt in options"></select>
 					  </td>
-					  <td class="text-right vert-align">{{ myHammock.value * 600 | currency:"$":0  }}</td>
+					  <td class="text-right vert-align">$ 0.00</td>
 					</tr>
 					<tr>
 						<td></td>
@@ -118,120 +118,21 @@
 				</table>
 				</div>	
 
-			<div class="col-sm-6 col-md-6 contact-info">
-				<p class="text-center"><strong>Payment Method</strong></p>
-				<div class="row">
-					<div class="col-sm-8 col-md-8">
-						<div class="form-group">
-							<label class="control-label">Name</label>
-							<input name="Card number" placeholder="Card number" class="form-control input-lg" type="text">
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4">
-						<div class="form-group">
-							<label class="control-label">Code</label>
-							<input name="Code" placeholder="Code" class="form-control input-lg" type="text" >
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 col-md-6">
-						<div class="form-group">
-							<label class="control-label" for="contact-mail">month</label>
-							<div class=" controls">
-								<select class="form-control">
-								  <option>January</option>
-								  <option>February</option>
-								  <option>March</option>
-								</select>
-							</div>
-						</div>	
-					</div>	
-					<div class="col-sm-6 col-md-6">
-						<div class="form-group">
-							<label class="control-label" for="contact-mail">year</label>
-							<div class=" controls">
-								<select class="form-control">
-								  <option>2014</option>
-								  <option>2015</option>
-								  <option>2016</option>
-								  <option>2017</option>
-								  <option>2018</option>
-								</select>
-							</div>
-						</div>	
-					</div>	
-				</div>	
+			<p class="text-center"><strong>Domain Name (?)</strong></p>
+			<div class="form-group">
+				<label class="control-label" >yourdomainname.com</label>
+				<input name="email" placeholder="example.com" class="form-control input-lg" type="email">
+			</div>	
 
-				<p class="text-center"><strong>Information</strong></p>
-				<div class="row">
-					<div class="col-sm-6 col-md-6">
-						<div class="form-group">
-							<label class="control-label">Name</label>
-							<input name="First name" placeholder="First name" class="form-control input-lg" type="text">
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-6">
-						<div class="form-group">
-							<label class="control-label">Last Name</label>
-							<input name="Last name" placeholder="Last name" class="form-control input-lg" type="text" >
-						</div>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="control-label" >Email</label>
-					<input name="email" placeholder="Your email" class="form-control input-lg" type="email">
-				</div>	
-				<p class="text-center"><strong>If you have Coupon code</strong></p>
-				<div class="input-group ">
-					<input placeholder="Coupon code" class="form-control input-lg" type="text" >
-					<span class="input-group-btn">
-						<button name="submit" type="submit" class="btn btn-store">Check!</button>
-					</span>
-				</div>
-
-			</div>
+			<p class="text-center"><strong>Enter Your Email</strong></p>			
+			<div class="form-group">
+				<label class="control-label" >Enter your email</label>
+				<input name="email" placeholder="you@email.com" class="form-control input-lg" type="email">
+			</div>	
 			
-			<div class="col-sm-6 col-md-6">
-				<p class="text-center"><strong>Delivery address</strong></p>
-				<div class="form-group">
-					<label class="control-label">Street</label>
-					<input name="street" placeholder="Street address" class="form-control" type="text">
-				</div>	
-				<div class="form-group">
-					<label class="control-label">City</label>
-					<input name="city" placeholder="City" class="form-control" type="text">
-				</div>	
-				<div class="form-group">
-					<label class="control-label">Country</label>
-					<input name="Country" placeholder="Country" class="form-control" type="text">
-				</div>							
-				<div class="form-group">
-					<label class="control-label">postcode</label>
-					<input name="postcode" placeholder="Post code" class="form-control" type="text">
-				</div>					
-
-				<table class="table">
-				  <thead>
-					<tr>
-					  <th colspan="3" class="text-center">Order sumary</th>
-					</tr>
-				  </thead>
-				  <tbody>
-					<tr>
-					  <td>Shipping cost:</td>
-					  <td></td>
-					  <td class="text-right">Free</td>
-					</tr>
-					<tr>
-					  <td>Total:</td>
-					  <td></td>
-					  <td id="total" class="text-right"></td>
-					</tr>
-				  </tbody>
-				</table>
+			<div class="col-sm-6 col-md-6">				
 				<p>
-					<button name="submit" type="submit" class="btn btn-store btn-block">Order Product</button>
+					<button name="submit" type="submit" class="btn center btn-store btn-block">Order Product</button>
 				</p>
 				<input type="hidden" name="submitted" id="submitted" value="true">
 			</div>

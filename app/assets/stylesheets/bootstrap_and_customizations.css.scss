@@ -912,6 +912,14 @@ address {
 #order-form.no-placeholder .error-message {
 	top:0;
 }
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  margin-top: 16px;
+}
+
 .input-group-btn .btn-king {
 	margin: 0;
 }
